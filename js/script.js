@@ -156,14 +156,18 @@ function finDePartie(e) {
     if (compteurJoueur === 3) {
         jeuGagne.style.visibility = 'visible';
         jeuGagne.style.display = 'block';
+        p.id = 'neutre'
+        f.id = 'neutre'
+        c.id = 'neutre'
     } 
 
     if (compteurOrdi === 3) {
         jeuPerdu.style.visibility = 'visible';
         jeuPerdu.style.display = 'block';
+        p.id = 'neutre'
+        f.id = 'neutre'
+        c.id = 'neutre'
     }
 
 }
-
-
 
