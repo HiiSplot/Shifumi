@@ -16,7 +16,7 @@ body {
 .block {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #a2bdb7;
     width: 90%;
